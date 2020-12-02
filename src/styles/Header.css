@@ -1,0 +1,183 @@
+
+
+.Header{
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    font-family: 'karla';
+    font-size: 20px;
+
+    z-index: 5;
+
+    cursor: default;
+
+    transition: height 0.15s linear ;
+}
+
+.Logo {
+    height: 80%;
+    
+    position: relative;
+    top: 10%;
+    left: 35px;
+    /* opacity: 0.7; */
+}
+
+.LogoText {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    letter-spacing: 5px;
+    float: left;
+    cursor: pointer;
+    transition: ease-in-out 0.3s all;
+}
+
+.LogoText:hover {
+    color: rgb(172, 185, 241);
+}
+
+.HeaderTitle {
+    display: inline-block;
+    float: left;
+    transition: ease-in-out 0.3s all;
+}
+
+.HeaderTitle:hover {
+    color: rgb(172, 185, 241);
+
+}
+
+.HeaderOption {
+    float: right;
+    margin: 0px;
+    margin-right: 25px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s all;
+    letter-spacing: 5px;
+    
+}
+
+.HeaderOption:hover {
+    color: rgb(172, 185, 241);
+}
+
+.HeaderActive {
+    color: rgb(172, 185, 241);
+}
+
+.HeaderDropdown {
+    position: fixed; 
+    top: 50px;
+    display: none;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 200px;
+    color: white;
+    font-family: "karla";
+
+    transition: height 0.15s linear ;
+}
+
+
+.headerOpener {
+    display: none;
+    float: right;
+    margin: 0px;
+    margin-right: 25px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s all;
+    height: 30%;
+    position: relative;
+    top: 25%;
+}
+
+
+.navBar {
+    height: calc(100vh - 50px);
+    position: fixed;
+    top: 50px;
+    right: 0;
+    background-color: rgba(0,0,0, 0.8);
+    /* background-color: blue; */
+    width: 0px;
+    transition: ease-in-out 0.3s all;
+}
+
+.navBarOpen {
+    width: 40vw;
+    z-index: 50;
+}
+
+.navOpt {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.navOptActive {
+    color: rgb(172, 185, 241);
+}
+
+.navBarExiter {
+    z-index: 49;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+/* starting ENTER animation */
+.messageout-enter {
+    height: 0px;
+    display: block;
+}
+
+/* ending ENTER animation */
+.messageout-enter-active {
+    /* opacity: 1; */
+    height: 100px;
+    transition: all 500ms linear;
+}
+
+/* starting EXIT animation */
+.messageout-exit {
+    height: 100px;
+}
+
+/* ending EXIT animation */
+.messageout-exit-active {
+    height: 0px;
+    transition: all 500ms ease-in-out;
+}
+  
+
+
+@media only screen and (max-width: 600px) {
+    .HeaderOption {
+        display: none !important;
+    }
+    .headerOpener {
+        display: block;
+    }
+
+    .Header .headerOpener {
+      float: right;
+      display: block;
+    }
+}
+
+  
