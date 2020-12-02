@@ -7,16 +7,16 @@ import "../styles/Header.css"
 const links = [
 
     {
-        display: 'C0NT@CT',
+        display: 'Contact',
         link: '/contact'
     },
     {
-        display: 'AB0UT',
+        display: 'About',
         link: '/about'
     },
     
     {
-        display: '$H0P',
+        display: 'Shop',
         link: 'https://www.youtube.com/watch?v=NPTCIfIZdjI'
     },
 

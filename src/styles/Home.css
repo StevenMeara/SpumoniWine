@@ -41,9 +41,15 @@ width: 100%;
     z-index: -1;
     width: 100%;
     border: none;
-  
     transform: translateX(0%);
   
+  }
+
+  @media (max-width: 768px) {
+
+    .homeLogo {
+      margin-top: 50%;
+    }
   }
 
 .homeLogo:hover {
