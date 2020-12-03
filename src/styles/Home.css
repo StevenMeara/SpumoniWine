@@ -47,14 +47,17 @@ width: 100%;
   border-radius: 10px;
   
 
-  background-color: black;
+  background-color: white;
+  color: black;
   font-family: 'Major Mono Display', monospace;
   font-size: larger;
+  text-align: center;
 
 
   border: 10px solid green;
   border-radius: 10px;
   white-space: pre-wrap;
+
   
 }
 
@@ -62,6 +65,9 @@ h1{
   font-size: x-large;
 }
 
+h2 {
+  font-size: xx-large;
+}
 
 .homeLogo {
 

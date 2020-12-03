@@ -130,21 +130,25 @@ export default class Home extends Component {
                     {"\n"}
                     Spumoni is here to make delicious beverages for you. {"\n"}
                     {"\n"}
-                    Spumoni is an agricultural project built by friends to be enjoyed by other friends. We strive to make approachable wines for discerning wine nerds, natural wine influencers, Bota Box truthers and Yellowtail freaks alike. {"\n"}
+                    Spumoni is an Agricultural Project built by Friends to be enjoyed by other friends. We strive to make Approachable wines for discerning wine nerds, Natural wine Influencers, Bota Box truthers and Yellowtail Freaks alike. {"\n"}
                     {"\n"}
                     The result is our take on Oregon ‘vin de soif’ AKA super-coolers.{"\n"}
                     {"\n"}
                     Spumoni Natural Wine is a reflection of our authenticity– exclusively native fermentations, no inoculations, no additions, no added sulfur, always bottled unfined and unfiltered. {"\n"}
                     {"\n"}
-                    Our wine is made in the Vineyard. We are proud to source grapes from small family-owned farmers whose energy inspires us. Always farmed organically and/or with biodynamic guidance, and always gently harvested by hand. Our farmers are our friends. No nonsense! Only grapes from people we love the most.{"\n"}
+                    Our wine is made in the Vineyard. We are proud to source Grapes from small Family-Owned farmers whose Energy inspires us. Always farmed organically and/or with Biodynamic guidance, and always gently Harvested by hand. Our farmers are our friends. No Nonsense! Only grapes from people we Love the most.{"\n"}
                     {"\n"}
-                    We make wine for your pleasure. {"\n"}
+                    We make Wine for your Pleasure. {"\n"}
                     {"\n"}
-                    Don’t be timid– drink during a virtual dance party, out of a mug while camping (or not camping!), over ice after a long hike, brown bag it (we don’t condone this btw,) drink with your pinky down and your head held high. {"\n"}
+                    Don’t be timid– Drink during a Virtual dance party, out of a mug while Camping (or not camping!), over Ice after a long hike, Brown bag it (we don’t condone this btw,) Drink with your Pinky down and your Head held High. {"\n"}
                     {"\n"}
                     Enjoy however you see fit. Spumoni is for you, it’s yours, be casual. {"\n"}
                     {"\n"}
                     Forever Friends.{"\n"}
+
+                    <h2>
+                      COMING JAN. 2021
+                    </h2>
                     
                     </text>
                     

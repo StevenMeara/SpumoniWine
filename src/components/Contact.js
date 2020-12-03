@@ -12,18 +12,23 @@ export default class Contact extends Component {
 
         return (
         
-            <div className='contactPage fadeQuick'> 
+            <div className='contactPage'> 
+            <img className="contactBackground" src= {'./resources/Assets/spumoniCardBlank.jpg'}>
+            
+            
+            </img>
            <div className='summaryBody'>
 
                </div>
-               <h1> for all inquiries</h1>
+            
+               <h1> for all inquiries:</h1>
 
 
                 <div>      
 
 
             </div>
-            <h2> contact@Spumoni.com </h2>
+            <h2> < a href="mailto:hello@spumoniwine.com">hello@Spumoniwine.com </a></h2>
 
 
 

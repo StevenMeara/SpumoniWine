@@ -10,15 +10,15 @@ const links = [
         display: 'Contact',
         link: '/contact'
     },
-    {
-        display: 'About',
-        link: '/about'
-    },
+   // {
+   //     display: 'About',
+   //     link: '/about'
+   // },
     
-    {
-        display: 'Shop',
-        link: 'https://www.youtube.com/watch?v=NPTCIfIZdjI'
-    },
+   // {
+   //     display: 'Shop',
+   //     link: '/shop'
+   // },
 
 ]
 
