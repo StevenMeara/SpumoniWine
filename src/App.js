@@ -18,7 +18,7 @@ function App() {
 
       <Router>
 
-        <Header title={"Spumoni Wine"} logo={"./public/resources/Assets/MainLogo.png"}/> 
+        <Header title={"Spumoni Wine"} logo={"./public/resources/logo.png"}/> 
 
 
         <Switch>

@@ -106,9 +106,11 @@ export default class Home extends Component {
                     >
                     <p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI">link to the video</a> instead.</p> 
                 </video>
-                
+              
 
                 </div> 
+
+                
 
                     <p>
                     <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI ">
@@ -121,11 +123,40 @@ export default class Home extends Component {
                     
 
                 </div> */}
+                 <div className="splashBioContainer">
+                    <text>
+                     <h1>Big Vibrations. {"\n"}
+                       </h1>
+                    {"\n"}
+                    Spumoni is here to make delicious beverages for you. {"\n"}
+                    {"\n"}
+                    Spumoni is an agricultural project built by friends to be enjoyed by other friends. We strive to make approachable wines for discerning wine nerds, natural wine influencers, Bota Box truthers and Yellowtail freaks alike. {"\n"}
+                    {"\n"}
+                    The result is our take on Oregon ‘vin de soif’ AKA super-coolers.{"\n"}
+                    {"\n"}
+                    Spumoni Natural Wine is a reflection of our authenticity– exclusively native fermentations, no inoculations, no additions, no added sulfur, always bottled unfined and unfiltered. {"\n"}
+                    {"\n"}
+                    Our wine is made in the Vineyard. We are proud to source grapes from small family-owned farmers whose energy inspires us. Always farmed organically and/or with biodynamic guidance, and always gently harvested by hand. Our farmers are our friends. No nonsense! Only grapes from people we love the most.{"\n"}
+                    {"\n"}
+                    We make wine for your pleasure. {"\n"}
+                    {"\n"}
+                    Don’t be timid– drink during a virtual dance party, out of a mug while camping (or not camping!), over ice after a long hike, brown bag it (we don’t condone this btw,) drink with your pinky down and your head held high. {"\n"}
+                    {"\n"}
+                    Enjoy however you see fit. Spumoni is for you, it’s yours, be casual. {"\n"}
+                    {"\n"}
+                    Forever Friends.{"\n"}
+                    
+                    </text>
+                    
+                    
+                    
+                    
+                    
+                                    </div>        
 
-                         
 
-
-            </div>
+                </div>
+                
 
             
         )
