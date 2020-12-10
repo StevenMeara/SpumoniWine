@@ -29,15 +29,11 @@ width: 100%;
   margin-right: auto;    
 }
 
-.splashBioContainer{
+.splashBioContainer {
   z-index: 2;
   position: relative;
   height: auto;
   width: 500px;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
   opacity: 85%;
   background-blend-mode: lighten;
