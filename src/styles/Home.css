@@ -14,7 +14,7 @@ width: 100%;
 .enterAnimationContainer{
   width: 100%;
   height: 100%;
-  background-color: rgb(80, 250, 60);
+  background-color: tan;
   position: fixed;
   z-index: 3;
   opacity: 1;
@@ -70,7 +70,7 @@ h2 {
     width: 100%;
     border: none;
     transform: translateX(0%);
-    visibility: hidden;
+    visibility: visible;
   }
 
   @media (max-width: 768px) {
