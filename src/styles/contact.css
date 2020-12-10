@@ -28,9 +28,8 @@
   display: block;
   margin-left: 30%;
   
-
+    opacity: 85%;
   background-blend-mode: lighten;
-  opacity: 85%;
   border-radius: 10px;
   visibility: visible;
   

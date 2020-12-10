@@ -39,11 +39,10 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 
-  background-blend-mode: lighten;
   opacity: 85%;
+  background-blend-mode: lighten;
   border-radius: 10px;
   visibility: visible;
-  
   background-color: white;
   color: black;
   font-family: 'Major Mono Display', monospace;
