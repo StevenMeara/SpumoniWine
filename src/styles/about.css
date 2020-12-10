@@ -1,11 +1,11 @@
 
 
-body {
+.aboutPage body {
     background-color: green !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.root {
+.aboutPageroot {
     background-color: green !important;
 }
 

@@ -1,24 +1,55 @@
 
 
-body {
+
+
+.contact root {
     background-color: orange !important;
 }
 
-.root {
-    background-color: green !important;
-}
-
 .contactPage {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     width: 100%;
+    
     color: white(255, 0, 0, 0.8);
     background-color: orange;
-
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.summaryText {
+   
+    margin-top: 100px;
+    z-index: 2;
+  position: fixed;
+  height: auto;
+  width: 500px;
+
+  display: block;
+  margin-left: 30%;
+  
+
+  background-blend-mode: lighten;
+  opacity: 85%;
+  border-radius: 10px;
+  visibility: visible;
+  
+
+  background-color: white;
+  font-family: 'Major Mono Display', monospace;
+  font-size: larger;
+  text-align: center;
+
+
+  border: 10px solid green;
+  border-radius: 10px;
+  white-space: pre-wrap;
 }
 
 .contactBackground {
     position: absolute;
     width: 100%;
+    height: auto;
     z-index: 0;
     opacity: 100%;
     mix-blend-mode: darken;
@@ -27,19 +58,20 @@ body {
 .contactPage h1 {
     color: black;
     z-index: 1;
-    position: absolute;
+    position: relative;
     font-family: 'Major Mono Display', monospace;
-    padding-left: 35%;
-    padding-top: 5%;
+    
+    
+    
     
 }
 .contactPage h2 {
     color: black;
     z-index: 1;
-    position: absolute;
+    position: relative;
     font-family: 'Major Mono Display', monospace;
-    padding-left: 35%;
-    padding-top: 10%;
+    
+    
     
 }
 

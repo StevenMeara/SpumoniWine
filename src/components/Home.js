@@ -97,21 +97,26 @@ export default class Home extends Component {
                <div className= {'enterAnimationContainer' + (this.state.visible ? "" : " invisible")}
                  onClick= {this.enterSite}> 
                  
-                <video 
+                        <img
+                        id= 'enterAnimation' 
+                        className= 'enterAnimation'
+                        src="./resources/Assets/EnterAnimationFinal.gif" >
+                        
+                        </img>
+                        
+
+                {/*<video 
                     id= 'enterAnimation'
                     className= 'enterAnimation'
-                    src="./resources/Assets/EnterAnimation.mp4" 
+                    src="./resources/Assets/EnterAnimation.gif" 
                     autoPlay
                     muted
                     >
                     <p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI">link to the video</a> instead.</p> 
-                </video>
+                </video> */}
               
 
-                </div> 
-
-                
-
+                </div>
                     <p>
                     <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI ">
                     <img className='homeLogo' src={'./resources/Assets/HomePageSplash.jpeg'}/>

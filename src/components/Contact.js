@@ -13,22 +13,31 @@ export default class Contact extends Component {
         return (
         
             <div className='contactPage'> 
-            <img className="contactBackground" src= {'./resources/Assets/spumoniCardBlank.jpg'}>
-            
-            
+            <img className="contactBackground" src= {'./resources/Assets/HomePageSplash.jpeg'}>
             </img>
-           <div className='summaryBody'>
 
-               </div>
+           <div className='summaryText'>
+
+               
             
-               <h1> for all inquiries:</h1>
+               <h1>We love to hear from you!</h1>
+               <h2>
+                    Email
+                </h2>
+                
+                <h2><a href="mailto:hello@spumoniwine.com">hello@Spumoniwine.com</a></h2>
 
+                <h2>
+                    Instagram
+                </h2>
 
-                <div>      
-
-
+                <h2>
+                    < a href="https://www.instagram.com/spumoniworldwide/">@spumoniworldwide</a>
+                </h2>
+               
+                
             </div>
-            <h2> < a href="mailto:hello@spumoniwine.com">hello@Spumoniwine.com </a></h2>
+           
 
 
 
