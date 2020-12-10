@@ -5,13 +5,13 @@ import axios from 'axios';
 const API_URL = 'http://localhost:8080/'
 
 const express = require('express')
-const app = epxress()
+const app = express()
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 const stripe_Secret_Key = process.env.stripe_Secret_Key
-console.log(stripe_Secret_Key )
+console.log(stripe_Secret_Key)
 
 export default {
 
