@@ -70,6 +70,7 @@ h2 {
     width: 100%;
     border: none;
     transform: translateX(0%);
+    visibility: hidden;
   }
 
   @media (max-width: 768px) {
