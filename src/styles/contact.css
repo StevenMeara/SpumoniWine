@@ -27,8 +27,6 @@
 
   display: block;
   margin-left: 30%;
-  
-    opacity: 85%;
   background-blend-mode: lighten;
   border-radius: 10px;
   visibility: visible;
@@ -46,12 +44,13 @@
 }
 
 .contactBackground {
+
     position: absolute;
     width: 100%;
     height: auto;
     z-index: 0;
     opacity: 100%;
-    mix-blend-mode: darken;
+    
 }
 
 .contactPage h1 {
