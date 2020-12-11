@@ -54,13 +54,11 @@
 }
 
 .contactPage h1 {
+
     color: black;
     z-index: 1;
     position: relative;
     font-family: 'Major Mono Display', monospace;
-    
-    
-    
     
 }
 .contactPage h2 {
