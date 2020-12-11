@@ -34,8 +34,6 @@ width: 100%;
   position: relative;
   height: auto;
   width: 500px;
-
-  opacity: 85%;
   background-blend-mode: lighten;
   border-radius: 10px;
   visibility: visible;
