@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import '../../styles/about.css';
 
-export default class BioCard extends Component {
+export default class ProductCard extends Component {
 
     render = () => {
 

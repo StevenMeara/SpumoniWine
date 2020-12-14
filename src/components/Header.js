@@ -10,15 +10,14 @@ const links = [
         display: 'Contact',
         link: '/contact'
     },
-   // {
-   //     display: 'About',
-   //     link: '/about'
-   // },
-    
-   // {
-   //     display: 'Shop',
-   //     link: '/shop'
-   // },
+   //{
+   //    display: 'About',
+   //    link: '/about'
+   //},
+    {
+        display: 'Shop',
+        link: '/Shop'
+    },
 
 ]
 
@@ -63,8 +62,10 @@ class Header extends Component {
 
                     {/* Logo */}
                     {/*<div className='LogoText' onClick={this.toHome}>Spumoni Wine</div>*/}
+                    
                     <img className='headerLogo' onClick={this.toHome} src={'./resources/Assets/logoTransparent.png'}>
                     </img>
+                    
                     
                     {links.map( (linkData) => {
                         return <p className={"HeaderOption" + (pathRoot === linkData.link ? ' HeaderActive' : '')} onClick={()=>this.toLink(linkData.link)} >{linkData.display}</p>

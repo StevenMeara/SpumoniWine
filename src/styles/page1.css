@@ -1,8 +1,10 @@
 
 
 .page1Page {
+    top: 100px;
     width : 100vw;
-    background-color: green;
+    height: 100%;
+    background-color: tan;
 }
 
 .page1Banner {

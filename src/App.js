@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -7,12 +7,34 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import page1 from './components/page1/page1';
-import page2 from './components/page2/page2';
+import Products from './components/page1/Page1';
+import Page2 from './components/page2/Page2';
 
 import './root.css';
 
-function App() {
+
+
+
+
+export default class App extends Component{
+  state = {
+
+      cart : []
+  }
+
+  addToCart = async (item) => {
+
+    const curCart = this.state.cart;
+    curCart.push(item);
+
+    this.setState({
+      cart: curCart
+    });
+
+  }
+
+  render = () => {
+
   return (
     <div className='root'>
 
@@ -26,22 +48,24 @@ function App() {
 
           {/* About Page */}
           <Route exact path='/about' render={(props) => <About
-    
+
           />} />
 
            {/* Contact Page */}
            <Route exact path='/Contact' render={(props) => <Contact
-    
+
            />} />
 
           {/* page2 Page */}
-          <Route exact path='/page2' render={(props) => <page2
-    
+          <Route exact path='/page2' render={(props) => <Page2
+            cart = {this.state.cart}
+            addToCart = {this.addToCart}
           />} />
 
-          {/* page1 Page */}
-          <Route exact path='/page1' render={(props) => <page1
-    
+          {/* shop - page1 Page */}
+          <Route exact path='/Shop' render={(props) => <Products
+              cart = {this.state.cart}
+              addToCart = {this.addToCart}
           />} />
 
 
@@ -62,6 +86,7 @@ function App() {
 
     </div>
   );
-}
+          
+  } 
 
-export default App;
+}

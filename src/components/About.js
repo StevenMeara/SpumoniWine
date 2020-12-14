@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import BioCard from './Tools/BioCard';
+import ProductCard from './Tools/ProductCard';
 
 import '../styles/about.css';
 
@@ -18,7 +18,7 @@ export default class About extends Component {
  </h1>
 
                 {/* Bio */}
-                <BioCard image={'  '}>
+                <ProductCard image={'  '}>
 
                     <h1>Spumoni is here to make delicious beverages for you.</h1>
 
@@ -59,7 +59,7 @@ export default class About extends Component {
                     Forever Friends.
                     </p>
             
-                </BioCard>
+                </ProductCard>
 
                 <h2>
                     

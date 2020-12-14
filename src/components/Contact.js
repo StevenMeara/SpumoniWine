@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import BioCard from './Tools/BioCard';
+import ProductCard from './Tools/ProductCard';
 
 import '../styles/contact.css';
 

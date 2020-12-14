@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import '../../styles/page2.css';
 import '../../styles/project.css';
 
-export default class page2 extends Component{
+export default class Page2 extends Component{
 
 
     render = () => {
