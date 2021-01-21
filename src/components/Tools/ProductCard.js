@@ -8,17 +8,17 @@ export default class ProductCard extends Component {
 
         return (
 
-            <div className='bioContainer'>
+            <div className='productContainer'>
 
                 {/* Image */}
-                <div className='bioImgContainer'
+                <div className='productImgContainer'
                     onClick={() => this.props.addToCart(this.props.product)}
                 >
-                    <img className='bioImg' src={this.props.product.icon} />
+                    <img className='productImg' src={this.props.product.icon} />
                 </div>
 
                 {/* Text */}
-                <div className='bioText'>
+                <div className='productText'>
 
                     {this.props.product.productName}
 

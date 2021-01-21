@@ -7,10 +7,11 @@
   width: 100%;
   /* height: calc(100vh-50px); */
 
-  background-color: tan;
-  color: tan;
+  /* background-color: white; */
+  /* color: white; */
+  background-color: rgba(115, 132, 153, 1);
 
-  font-family: 'karla';
+  font-family: 'Authentic';
 
 }
 

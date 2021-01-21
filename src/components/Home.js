@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import '../styles/Home.css';
 
+import Mailchimp from 'react-mailchimp-form';
 
 export default class Home extends Component {
 
@@ -35,8 +36,33 @@ export default class Home extends Component {
             
             <div className= 'homeContainer'>
 
-           
-               <div className= {'enterAnimationContainer' + (this.state.visible ? "" : " invisible")}
+                  <div className= 'contentContainer1'>
+                      <img className='homeLogoText' src= '/resources/Assets/logoTransparent.png'/>
+
+                      <div className='contentContainer1TextContainer'>
+                        <h1>
+                          Natural Wine Made For You.
+                        </h1>
+                        <h1>
+                          Release Date *TBD*
+                        </h1>
+                        <h1>
+                          Coming Soon.
+                        </h1>
+
+                      </div>
+
+                  </div>
+
+
+
+
+
+
+
+
+
+               {/* <div className= {'enterAnimationContainer' + (this.state.visible ? "" : " invisible")}
                  onClick= {this.enterSite}> 
                  
                         <img
@@ -46,25 +72,37 @@ export default class Home extends Component {
                         
                         </img>
                         
-                </div>
+                </div> */}
 
 
                   
-                   <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI ">
+                   {/* <a href="https://www.youtube.com/watch?v=NPTCIfIZdjI ">
                     <img className='homeLogo' src={'./resources/Assets/HomePageSplash.jpeg'}/>
-              </a> 
+              </a>  */}
+
+                
 
               
                   
                   
 
 
-                <div className="homeSquare1"></div>
+                {/* <div className="homeSquare1"></div> */}
+                <div className='contentContainer2'>
+
+                  <img className= 'contentContainer2Image' src='/resources/Assets/Photos/Grapes1.JPG'/>
+
 
                  <div className="splashBioContainer">
-                    <text>
-                     <h1>Big Vibrations. {"\n"}
-                       </h1>
+                   
+
+                   
+
+
+
+                    <h2>
+                     {/* <h1>Big Vibrations. {"\n"}
+                       </h1> */}
                     {"\n"}
                     Spumoni is here to make delicious beverages for you. {"\n"}
                     {"\n"}
@@ -84,43 +122,73 @@ export default class Home extends Component {
                     {"\n"}
                     Forever Friends.{"\n"}
 
-                    <h2>
-                      COMING JAN. 2021
+                    
                     </h2>
                     
-                    </text>
-                    
-                        </div>        
+                  </div>        
+                  </div>
                  
-                        <img
+                        {/* <img
                 className= 'photo1'
+                src="./resources/Assets/Photos/CloudMountain.jpg"
+                ></img> */}
+                  
+                  {/* <div className="homeSquare1"></div> */}
+                  
+
+                  {/* <img
+                className= 'photo2'
                 src="./resources/Assets/Photos/MainBackground.jpeg"
                 ></img>
-                  
-                  <div className="homeSquare1"></div>
+                                    <div className="homeSquare2"></div> */}
 
 
-                  <img
-                className= 'photo2'
-                src="./resources/Assets/Photos/CloudMountain.jpg"
-                ></img>
-                  
-                  <img
+                  {/* <img
                 className= 'photo3'
                 src="./resources/Assets/Photos/TableRock.jpg"
-                ></img>
+                ></img> */}
                   
-                  <img
+                  {/* <img
                 className= 'photo4'
                 src="./resources/Assets/Photos/Table.jpg"
-                ></img>
+                ></img> */}
 
-                <img
+                {/* <img
                 className= 'photo5'
                 src="./resources/Assets/Photos/Grapes1.JPG"
-                ></img>
+                ></img> */}
+
+
+                <div className='contentContainer3'>
+                  <h3>
+                    Keep In Touch!
+                  </h3>
+                  <h1>
+                    Sign up with your email to receive our newest updates!
+                  </h1>
+                  {/* <form className='emailSubmitForm'>
+                        
+                        <input className='emailSubmitFormInput' type="text" name="name" />
+              
+                      <input className='emailSubmitFormButton'type="submit" value="Submit!" />
+                    </form> */}
+                    <Mailchimp 
+                        className = 'emailSubmitForm'
+                        action='https://spumoniwine.us7.list-manage.com/subscribe/post?u=f8f6a5dc9f521702eb273ca01&amp;id=2971775fc1'
+                        fields={[
+                          {
+                            name: 'EMAIL',
+                            placeholder: 'Email',
+                            type: 'email',
+                            required: true
+                          }
+                        ]}
+                        />
+                  <img className='ContentContainer3Photo'src='/resources/Assets/Photos/MainBackground.jpeg'/>
+                </div>
                                     
                 </div>
+                
                 
 
             

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ProductCard from './Tools/ProductCard';
+// import ProductCard from './Tools/ProductCard';
 
 import '../styles/about.css';
 
@@ -13,57 +13,31 @@ export default class About extends Component {
         return (
         
             <div className='aboutPage fadeQuick'> 
+                <img className='aboutPagePhoto' src='/resources/Assets/Photos/CloudMountain.jpg'/>
 
-<h1> Big Vibrations.
- </h1>
 
-                {/* Bio */}
-                <ProductCard image={'  '}>
 
-                    <h1>Spumoni is here to make delicious beverages for you.</h1>
-
-                    <p>
-                    Spumoni is an agricultural project built by friends to be enjoyed by other friends. We strive to make approachable wines for discerning wine nerds, natural wine influencers, Bota Box truthers and Yellowtail freaks alike. 
-
-                    </p>
-
-                    <p>
-                    The result is our take on Oregon ‘vin de soif’ AKA super-coolers.
-
-                    </p>
-
-                    <p>
-                    Spumoni Natural Wine is a reflection of our authenticity– exclusively native fermentations, no inoculations, no additions, no added sulfur, always bottled unfined and unfiltered. 
-  
-                    </p>
-
-                    <p>
-                    Our wine is made in the Vineyard. We are proud to source grapes from small family-owned farmers whose energy inspires us. Always farmed organically and/or with biodynamic guidance, and always gently harvested by hand. Our farmers are our friends. No nonsense! Only grapes from people we love the most.
-
-                    </p>
-
-                    <p>
-                    We make wine for your pleasure. 
-
-                    </p>
-
-                    <p>
-                    Don’t be timid– drink during a virtual dance party, out of a mug while camping (or not camping!), over ice after a long hike, brown bag it (we don’t condone this btw,) drink with your pinky down and your head held high. 
-                    </p>
-
-                    <p>
-                    Enjoy however you see fit. Spumoni is for you, it’s yours, be casual. 
-                    </p>
-
-                    <p>
-                    Forever Friends.
-                    </p>
+                <div className='aboutPageTextContainer'>
             
-                </ProductCard>
 
-                <h2>
-                    
-                </h2>
+                        <h1>
+                                    Spumoni Wine is made by three friends in Willamette Valley, Oregon. We offer casual table wines to be enjoyed with your pinkies down and your head held high. 
+                                    <br />
+                                    <br />
+
+                                    Enjoy with your friends, on a solo hike, or with a few ice cubes in your glass. 
+                                    Spumoni is for you, it’s yours, be casual! 
+                                    <br />
+                                    <br />
+
+                                    We are dedicated to sourcing grapes from small family-owned farms working organically at the minimum. 
+                                    <br />
+                                    <br />
+
+                                    Our farmers embody nature and we aim to capture that magic in our cellar practices - exclusively native fermentation, no inoculations, no additions, minimal sulfur, always bottled unified and unfiltered. It’s naturally fermented grape juice and we love that.
+                        </h1>
+
+                </div>
 
             </div>
 

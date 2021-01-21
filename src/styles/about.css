@@ -1,17 +1,20 @@
 
 
 .aboutPage body {
-    background-color: green !important;
+    /* background-color: green !important; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .aboutPageroot {
-    background-color: green !important;
+    /* background-color: green !important; */
 }
 
 .aboutPage {
-    width: 100vw;
-    /* height: 100vh; */
+
+    margin-top: 100px;
+    width: 100%;
+
+    /* height: 1000px; */
     color: green(255, 0, 0, 0.8);
     background-image: '../../resources/Assets/HomePageSplash.jpeg';
 
@@ -20,10 +23,47 @@
 
 
 .aboutPage h1 {
-    font-family: karla;
+    font-family: Authentic;
     padding: 20px;
+
+    font-size: 20px;
     
 }
+
+.aboutPagePhoto {
+    width: 25%;
+    position: absolute;
+
+    margin-left: 100px;
+    margin-top: 3%;
+
+    border: solid whitesmoke 2px;
+  border-radius: 10px;
+    
+    
+}
+
+.aboutPageTextContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    text-align: right;
+    width: 50%;
+
+    /* margin-top: 100px; */
+
+    /* height: 100px; */
+
+    /* background-color: seagreen; */
+}
+
+
+
+
+
+
+
+
 
 
 

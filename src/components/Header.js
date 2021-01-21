@@ -5,21 +5,27 @@ import "../styles/Header.css"
 
 
 const links = [
-
     {
-        display: 'Contact',
-        link: '/contact'
+        display: 'Follow',
+        link: 'https://www.instagram.com/spumoniworldwide/',
+        external: true
     },
-   //{
-   //    display: 'About',
-   //    link: '/about'
-   //},
+
+    // {
+    //     display: 'Contact',
+    //     link: '/contact'
+    // },
+   {
+      display: 'About',
+      link: '/about'
+   },
     {
         display: 'Shop',
-        link: '/Shop'
+        link: 'https://shopify.com',
+        external: true
     },
-
 ]
+    
 
 
 
@@ -37,9 +43,16 @@ class Header extends Component {
         this.props.history.push("/");
     }
 
-    toLink = (link) => {
-        this.setState({ navOpen: false });
-        this.props.history.push(link);
+    toLink = (link, external) => {
+
+        if (external) {
+            const newWindow = window.open(link, '_blank', 'noopener,noreferrer')
+        }
+        else {
+            this.setState({ navOpen: false });
+            this.props.history.push(link);
+        }
+        
     }
 
     toggleNav = async () => {
@@ -68,7 +81,7 @@ class Header extends Component {
                     
                     
                     {links.map( (linkData) => {
-                        return <p className={"HeaderOption" + (pathRoot === linkData.link ? ' HeaderActive' : '')} onClick={()=>this.toLink(linkData.link)} >{linkData.display}</p>
+                        return <p className={"HeaderOption" + (pathRoot === linkData.link ? ' HeaderActive' : '')} onClick={()=>this.toLink(linkData.link, linkData.external)} >{linkData.display}</p>
                     })}
                     
                     {/* Nav Opener */}

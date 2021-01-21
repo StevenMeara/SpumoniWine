@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Mailchimp from 'react-mailchimp-form'
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -80,7 +81,9 @@ export default class App extends Component{
 
         </Switch>
 
-        <Footer />
+        <Footer>
+          
+        </Footer>
 
       </Router>
 

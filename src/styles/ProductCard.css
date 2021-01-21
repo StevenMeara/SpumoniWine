@@ -48,28 +48,28 @@
 /* Bio Media */
 @media only screen and (max-width: 600px) {
 
-    .aboutPage {
+    .produtPage {
         padding-left: 0;
     }
 
-    .bioImgContainer {
+    .productImgContainer {
         width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bioContainer {
+    .productContainer {
         max-height: none;
         margin-left: none;
     }
 
-    .bioImg {
+    .productImg {
         width: 100%;
         padding: 0;
     }
 
-    .bioText {
+    .productText {
         width: calc(100% - 40px);
         padding-left: 20px;
     }
