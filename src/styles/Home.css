@@ -83,13 +83,9 @@
   border-radius: 10px;
 }
 .splashBioContainer {
-  /* top: 50px; */
   z-index: 4;
-  /* position: absolute; */
-  height: auto;
+    height: auto;
   width: 45%;
-  /* background-blend-mode: lighten; */
-  /* border-radius: 10px; */
   visibility: visible;
   opacity: 85%;
 
